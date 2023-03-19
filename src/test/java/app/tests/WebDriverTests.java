@@ -8,7 +8,7 @@ public class WebDriverTests {
 
     @Test
     public void testGetUrl() {
-        System.setProperty("webdriver.chrome.driver", "src/test/esources/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriver.exe");
         System.setProperty("webdriver.http.factory", "jdk-http-client");
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.ray-ban.com/");
