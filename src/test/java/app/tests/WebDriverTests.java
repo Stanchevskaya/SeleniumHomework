@@ -47,7 +47,7 @@ public class WebDriverTests {
     }
 
 @AfterAll
-    static void close () {
+    public static void close () {
         driver.quit();
     }
 
